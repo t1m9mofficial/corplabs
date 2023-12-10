@@ -2,9 +2,11 @@
 This project is back-end for an electronic car dealership. There are mainly three endpoints.
 
 1. http://localhost:3000/api/v1/cars (GET)
-Get Cars - The first endpoint calls database to list all the cars if no filter is provided. But if there is any filter like year or make or model or colour, the filter will be applied to the query and result will be show accordingly. Send\
-`{}`
-\OR
+Get Cars - The first endpoint calls database to list all the cars if no filter is provided. But if there is any filter like year or make or model or colour, the filter will be applied to the query and result will be show accordingly. Send
+```
+{}
+```
+OR
 ```
 {
   "year": 2021,
