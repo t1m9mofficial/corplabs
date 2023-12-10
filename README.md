@@ -50,3 +50,11 @@ Add Purchase - When user wishes to purchase a car, this endpoint is called. This
 6. Copy-paste *.env.example* and rename as *.env*, put values on the right of the equal sign according to your system
 7. Once done, run command *node index.js*
 8. The terminal will show you on which port the project is running.
+
+## Technical decisions
+1. How to design the database table *CAR* so that it helps filtering the table easily and also it is advantageous for when purchase occurs.
+2. I Chose the direct approach of saving the same year, make, model car in one table with different colors.
+3. Becaue the business logic was to not let purchase happen until it is different color, same year, make, model is okay.
+
+## Comments
+1. I left out the *sort* part because to me it's better to implement sort from the from-end.
