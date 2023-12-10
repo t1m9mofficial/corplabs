@@ -52,9 +52,9 @@ Add Purchase - When user wishes to purchase a car, this endpoint is called. This
 8. The terminal will show you on which port the project is running.
 
 ## Technical decisions
-1. How to design the database table *CAR* so that it helps filtering the table easily and also it is advantageous for when purchase occurs.
-2. I Chose the direct approach of saving the same year, make, model car in one table with different colors.
-3. Becaue the business logic was to not let purchase happen until it is different color, same year, make, model is okay.
+- How to design the database table *CAR* so that it helps filtering the table easily and also it is advantageous for when purchase occurs.
+- I Chose the direct approach of saving the same year, make, model car in one table with different colors.
+- Becaue the business logic was to not let purchase happen until it is different color, same year, make, model is okay.
 
 ## Comments
 1. I left out the *sort* part because to me it's better to implement sort from the from-end.
