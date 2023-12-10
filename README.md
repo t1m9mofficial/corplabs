@@ -16,7 +16,6 @@ OR
   "colour": "RED" 
 }
 ```
-
 http://localhost:3000/api/v1/users (POST)\
 Add User - This endpoint saves user data in the database like name, email, etc. The endpoint checks whether the email provided in te request body is registered in the system from before. If there is no record found of the provided email, user data is saved otherwise error message is shown along with status code.
 ### Request body
@@ -27,7 +26,6 @@ Add User - This endpoint saves user data in the database like name, email, etc. 
   "phone_number": "+19076962500"
 }
 ```
-
 http://localhost:3000/api/v1/user/car (POST)\
 Add Purchase - When user wishes to purchase a car, this endpoint is called. This one, before saving user and car data in the database checks whether the same user has bought the same car with the exact year, make, model and colour before. If yes, then the endpoint will show error code and message saying 'User already have this make, model with the same colour from the same year.'
 ### Request body
@@ -37,12 +35,11 @@ Add Purchase - When user wishes to purchase a car, this endpoint is called. This
   "car_id": 2
 }
 ```
-
 ## Packages Used
-1. CORS
-2. DOTENV
-3. EXPRESS
-4. MYSQL2
+- CORS
+- DOTENV
+- EXPRESS
+- MYSQL2
 
 ## Run Code
 1. Clone the repository.
