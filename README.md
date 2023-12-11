@@ -36,14 +36,14 @@ Add Purchase - When user wishes to purchase a car, this endpoint is called. This
 }
 ```
 ## Packages Used
-- CORS
-- DOTENV
-- EXPRESS
-- MYSQL2
+- cors
+- dotenv
+- express
+- mysql2
 
 ## Run Code
 1. Clone the repository.
-2. *~cd* into the project folder where *index.js* is present.
+2. *cd* into the project folder where *index.js* is present.
 3. run command *npm install*
 4. Now create database and import *database.sql* from *src/db/* directory.
 5. From the same directory you can import dummy data namely *dummy-data.sql*
@@ -57,4 +57,4 @@ Add Purchase - When user wishes to purchase a car, this endpoint is called. This
 - Becaue the business logic was to not let purchase happen until it is different color, same year, make, model is okay.
 
 ## Comments
-1. I left out the *sort* part because to me it's better to implement sort from the from-end.
+1. I left out the *sort* part because to me it's better to implement sort from the front-end.
